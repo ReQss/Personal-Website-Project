@@ -101,17 +101,17 @@ function speaker(){
 
 // the songs to be played!
 var songs = new init([
-  'muzyka/muzyka1.mp3',
-  'muzyka/mazeofmayo.mp3',
-  'muzyka/alltime.mp4',
-  'muzyka/milkyways.mp3',
-  'muzyka/outbreaker.mp3',
-  'muzyka/kradness.mp3',
-  'muzyka/catgroove.mp3',
-  'muzyka/undertale.mp3',
-  'muzyka/supermario.mp3',
-  'muzyka/kilimanjaro.mp3',
-  'muzyka/hinkik.mp3'
+  'Muzyka/muzyka1.mp3',
+  'Muzyka/mazeofmayo.mp3',
+  'Muzyka/alltime.mp4',
+  'Muzyka/milkyways.mp3',
+  'Muzyka/outbreaker.mp3',
+  'Muzyka/kradness.mp3',
+  'Muzyka/catgroove.mp3',
+  'Muzyka/undertale.mp3',
+  'Muzyka/supermario.mp3',
+  'Muzyka/kilimanjaro.mp3',
+  'Muzyka/hinkik.mp3'
 ]);
 //end
 
