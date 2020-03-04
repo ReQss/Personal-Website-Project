@@ -1,0 +1,135 @@
+﻿<!--
+Website made by reqs inspired by https://reager.org/ // https://quake.tf/
+If any of the songs on the site belongs to you (as the copyright holder) 
+and you want it taken down - please shoot me an email.
+-->
+
+
+<html>
+<link rel="stylesheet" href="style2.css">
+<head>
+<script type="text/javascript">
+/*czemu ten sciek nie dziala?*/
+$(document).ready(function(){
+$(".btn2").click(function(){
+  $("#bioinfo").fadeIn();
+});
+});
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="javascript4.js"></script>
+	
+</head>
+
+<body onload="currentSong()">
+
+
+	
+    <div class="kontener">
+	
+        <div class="obudowa" onClick="CloseAlert()">
+           
+            <video width="100%" autoplay muted loop id="myVideo">
+                <source src="video.mp4" type="video/mp4">
+            </video>           
+        </div>
+		<div class="fullvideobackground"></div>
+		
+		
+		
+		
+		
+		
+        <div class="gora">
+
+        </div>
+        <div class="srodek" onClick="CloseAlert()">
+
+        </div>		
+			<div id="napis"></div>					
+    </div>
+	
+    <span  >
+	<img class="reqs"  src="Obrazy/reqs.png"></img>
+	</span>
+    <div class="pasek">
+
+        <div  class="pieceofbelt1">
+            <div class="half">
+
+            </div>
+        </div>
+        <div class="pieceofbelt">
+            <!--BUTTONS-->
+            <div class="half"> <img onmouseover="foldertekstover()" onmouseout="foldertekstout()"  class="zoom" width="100px" height="100px" src="obrazy/folder.png"</img></div>
+            <div class="half">
+                <a href="https://steamcommunity.com/id/rekuseg" id="steam-link" >
+                    <img onmouseover="steamtekstover()" onmouseout="steamtekstout()" class="zoom" style="width:100px"  src="obrazy/steam.png"></img>
+            </div>
+        </div>
+        <div class="pieceofbelt">
+
+            <div class="half">
+                <a  id="youtube-link"  >
+                    <img onmouseover="mailtekstover()" onmouseout="mailtekstout()" class="zoom" width="100px" height="100px" src="obrazy/email.png"></img>
+            </div>
+            <!--https://www.youtube.com/channel/UCBEDKBxh3Q9XH0I4_yaYLaw    not yet-->
+            <div class="half">
+                <a href="https://www.youtube.com/channel/UCBEDKBxh3Q9XH0I4_yaYLaw?view_as=subscriber" id="youtube-link"  >
+                    <img onmouseover="youtubetekstover()" onmouseout="youtubetekstout()" class="zoom" width="100px" height="100px" src="obrazy/youtube.png"></img>
+                </a>
+            </div>
+        </div>
+        <div class="pieceofbelt">
+            <div class="half">
+		
+			
+                <a href="info" id="youtube-link" >
+                    <a  target="_self" title="Short bio and info"   onclick="OpenAlert()">
+                        <img id="btn1"onmouseover="inftekstover()" onmouseout="inftekstout()" class="zoom" width="100px" height="100px " src="obrazy/info.png"></img>
+                    </a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="madeby">
+
+        <p class="fontsize">
+           <a class="rainbow-text"> © reqs (2019) </a>
+            <br>
+
+            Background video: STEPS by
+            <a class="footer-link" href="http://www.beeple-crap.com/vjclips.php">beeple</a>
+            <br>
+            Music:
+            <span id="current-song-name" class="rainbow-text" >Loading Song!</span>
+	<br>Music played on the site is used under Fair Use (private/non-profit use, effort put into the entire site, music being just a part of it) etc.
+If you still want your work taken down, please use the email above.
+	</p>
+	 
+    </div>
+    <img style="left:42.8%;"src="https://steamuserimages-a.akamaihd.net/ugc/914701613581032091/84DE5B30717D16E1FEB45C8CD7A5C80D6D2B1E8F/" class="logo" </img>
+	<div id="bioinfo" onclick="CloseAlert()">
+	<br>Hi! I'm ReQs. 
+	<br>I'm junior software developer which mostly deals with games and websites.
+<br>Mostly I am making website templates or personal websites but I am also capable of making computer games in Unity Engine, Servers in Windows Server 2008 or Linux, creating graphics and everything related to IT
+<br>Programming languages I know and am capable of using: Javascript, CSS, PHP, HTML, C Sharp, C++
+<br>If you want to contact me for cooperation, send me an e-mail.
+<br>
+<a style="color:brown" style="">Tap anywhere to close.</a>
+	</div>
+	
+	
+	
+
+<img id="speaker1" src="obrazy/speaker.png" class="speaker" onclick="speaker()" onclick="changeImage()" ><img>
+
+<input value="0.1" type="range" oninput="changeVolume()" id="range" min="0" max="1" step="0.01" />
+
+
+<button class="btn2" style="display:none">swir
+</body>
+
+
+</html>

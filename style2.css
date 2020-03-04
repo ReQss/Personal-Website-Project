@@ -1,0 +1,327 @@
+﻿.box{
+	height:100%;
+	width:100%;
+	
+	
+}
+.kontener{
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	position:absolute;
+	overflow:hidden;
+}
+.obudowa {
+	height: 100%;
+	width:100%;	
+	position:fixed;
+    top: 0;
+    left: 0;
+}
+.gora{
+	width:100%;
+	height:50px;
+	text-align:center;
+	position:relative;
+	font-style:italic;
+	color:white;
+	margin:-7.6px;
+	float:left;
+}
+.srodek{
+	width:100%;
+	height:20%;
+	float:left;
+	
+	position:relative;
+	top:200px;
+	text-align:center;
+	font-size:50px;
+	margin:-7.6px;
+}
+
+
+
+
+
+
+.pieceofbelt{
+	width:25%;
+	height:100%;
+	
+	position:relative;
+	float:left;
+	
+	
+}
+.pieceofbelt1{
+	width:22%;
+	height:100%;
+	
+	position:relative;
+	float:left;
+	
+	
+}
+.half{
+	width:50%;
+	height:100%;
+	position:relative;
+	float:left;
+	background-color:none;
+	
+}
+
+
+.madeby{
+	width:40%;
+	height:10%;
+	top:86%;
+	left:25;
+	position:absolute;
+	text-align:left;
+	
+	-moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.6);
+	
+	
+}
+.logo{
+	
+	top:27%;
+	lefT:5%;
+    width:220px;
+	height:220px;
+    border-radius: 100%;
+	position:absolute;
+	
+	max-height: 100%;
+    max-width: 100%;
+	animation: example1 1s ease-in-out infinite alternate;
+	 
+}
+@keyframes example1{
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+	
+  }
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple, 0 0 80px purple;
+	
+	
+  }
+}
+.fontsize{
+	font-size:12;
+	color:white;
+	
+}
+.fontsize2{
+	font-size:50;
+	top:125;
+	left:41.7%;
+	position:absolute;
+	animation: glow1 1s ease-in-out infinite alternate;
+	font-family: 'RR Beaver';
+}
+@-webkit-keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00c586, 0 0 40px #00c586, 0 0 50px #00c586, 0 0 60px #00c586, 0 0 70px #00c586;
+	color:blue;
+	
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue, 0 0 80px blue;
+	
+	color:#00c586;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+	
+	
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple, 0 0 80px purple;
+	
+	
+  }
+}
+
+
+.pasek{
+	
+	width:100%;
+	height:100px;
+	position:relative;
+	top:67%;
+	
+	
+	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.6);
+	
+}
+
+
+@-webkit-keyframes example {
+  from {
+    box-shadow: 0 0 1em gold;
+	
+  }
+  to {
+    
+	box-shadow: inset 0 0 1em , 0 0 1em red;
+	
+  }
+  to2{
+	  
+	  box-shadow: inset 0 0 1em , 0 0 1em blue;
+  }
+}
+
+
+
+body {
+margin:0;
+font-family:'Open Sans', sans-serif;
+padding:0;
+
+	
+}
+#napis{
+	top:58.5%;
+	position:absolute;
+	width:100%;
+	height:50px;
+	font-size:35px;
+color:white;
+	text-align:center;
+	 -webkit-text-stroke-width: 1.3px;
+   -webkit-text-stroke-color: white;
+   
+   
+   animation: ;
+	
+}
+
+#range{
+	
+	position:absolute;
+	top:89.1%;
+	left:46%;
+	
+}
+
+.speaker{
+	
+	position:absolute;
+	top:82%;
+	left:48.8%;
+	height:50px;
+	width:50px;
+	transition:all 0.15s;
+}
+.speaker:hover{
+	
+	transform: scale(1.2);
+	filter: brightness(0);
+}
+#VolumeText{
+	
+	position:absolute;
+	top:89.1%;
+	left:46.14%;
+	color:white;
+	
+}
+.zoom {
+   transition: all 0.15s ease-in-out;
+   width:100px;
+   height:100px;
+   
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+  filter: brightness(0);
+
+}
+#bioinfo{
+	width:700px;
+	height:350px;
+	background-color:#660033;
+	display:none;
+	position:absolute;
+	top:10%;
+	left:28%;
+	animation: example1 1s ease-in-out infinite alternate;
+	border-radius: 105px;
+	text-align:center;
+	font-family:Papyrus;
+	color:white;
+	font-size:20px;
+	background-image:url("Obrazy/giphy.gif");
+	-webkit-text-stroke-width: 1px;
+	background-size: 100%;
+	box-shadow:0 0 300px 50px rgba(90,0,30,100) inset;
+}
+
+.rainbow-text{
+	
+	animation:none;
+	font-size:12;
+	filter: hue-rotate(57deg);
+    color: rgb(219, 10, 135);
+	    text-shadow: 0 0 5px #FF0000, 0 0 7px #0000FF;
+}
+
+@keyframes example3{
+  from {
+    filter:brightness(1);
+  }
+  to {
+  filter:brightness(0);
+	
+  }
+}
+
+.reqs{
+	
+	top:100;
+	left:41.2%;
+	position:absolute;
+	animation: glow3 1s ease-in-out infinite alternate;
+	
+}
+@-webkit-keyframes glow3 {
+  from {
+   filter: sepia(0);
+	
+  }
+  to {
+   filter: sepia(200);
+	
+  }
+}
+
+#current-song-name{
+	
+	color:pink;
+	text-shadow: 0 0 5px #FF0000, 0 0 7px #0000FF;
+	
+}
+
+.fullvideobackground{
+	
+	    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   display:flex;
+   background-image:url("Obrazy/noise.png");
+	box-shadow:0 0 300px 50px rgba(0,0,30,100) inset;
+}
+
+
