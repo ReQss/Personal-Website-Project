@@ -32,7 +32,7 @@ function steamtekstout() {
 }
 //mail
 function mailtekstover() {
-    var folder = document.getElementById("napis").innerHTML = "My mail: reqspl@gmail.com";
+    var folder = document.getElementById("napis").innerHTML = "My mail: PogO";
 }
 function mailtekstout() {
     var folder = document.getElementById("napis").innerHTML = "";
