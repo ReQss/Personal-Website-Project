@@ -186,6 +186,8 @@ body {
 margin:0;
 font-family:'Open Sans', sans-serif;
 padding:0;
+	  overflow: hidden;
+
 
 	
 }
