@@ -32,7 +32,7 @@ function steamtekstout() {
 }
 //mail
 function mailtekstover() {
-    var folder = document.getElementById("napis").innerHTML = "My mail: PogO";
+    var folder = document.getElementById("napis").innerHTML = "MyAnimeList account.";
 }
 function mailtekstout() {
     var folder = document.getElementById("napis").innerHTML = "";
