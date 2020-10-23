@@ -90,11 +90,11 @@ function speaker(){
 	if(audio.volume!=0){
 	audio.volume=0;
 	if(audio.volume==0)
-	document.getElementById("speaker1").src = "obrazy/speakercrossed.png";
+	document.getElementById("speaker1").src = "Obrazy/speakercrossed.png";
 	}
 	else{
 		audio.volume=range.value;
-		document.getElementById("speaker1").src = "obrazy/speaker.png";
+		document.getElementById("speaker1").src = "Obrazy/speaker.png";
 		
 	}
 }
