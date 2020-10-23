@@ -120,11 +120,11 @@ function changeVolume() {
 var range = document.getElementById('range');
 audio.volume=range.value;
 if(audio.volume==0){
-	document.getElementById("speaker1").src = "obrazy/speakercrossed.png";
+	document.getElementById("speaker1").src = "Obrazy/speakercrossed.png";
 	
 }
 if(audio.volume!=0)
-	document.getElementById("speaker1").src = "obrazy/speaker.png";
+	document.getElementById("speaker1").src = "Obrazy/speaker.png";
 }
 //title
 function currentSong(){
