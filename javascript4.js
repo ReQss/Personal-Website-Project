@@ -25,7 +25,7 @@ function foldertekstout() {
 }
 //steam
 function steamtekstover() {
-    var folder = document.getElementById("napis").innerHTML = "My steam profile.";
+    var folder = document.getElementById("napis").innerHTML = "Steam profile.";
 }
 function steamtekstout() {
     var folder = document.getElementById("napis").innerHTML = "";
@@ -39,7 +39,7 @@ function mailtekstout() {
 }
 //youtube account
 function youtubetekstover() {
-    var folder = document.getElementById("napis").innerHTML = "My youtube account.";
+    var folder = document.getElementById("napis").innerHTML = "Youtube account.";
 }
 function youtubetekstout() {
     var folder = document.getElementById("napis").innerHTML = "";
