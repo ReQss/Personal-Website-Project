@@ -181,7 +181,7 @@ var g=0;
 var b=0;
 var ink=0;
 function rgb(){
-  console.log(r);
+ 
   var folder = document.getElementById("rgb").style.color =`rgb(${r},${g},${b})`;
   var folder = document.getElementById("napis").style.color =`rgb(${r},${g},${b})`;
   /*
@@ -218,6 +218,6 @@ if(ink==0){
 
 
 
-console.log(r,g);
+
 }
 var myInterval = setInterval(rgb, 5);
