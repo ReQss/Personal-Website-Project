@@ -174,29 +174,13 @@ function CloseAlert(){
 	document.getElementById("bioinfo").style.display = 'none';
 	
 }
-
-//RED - 256,0,0 GREEN 0,256,0 BLUE 0,0,256
 var r=256;
 var g=0;
 var b=0;
 var ink=0;
 function rgb(){
- 
   var folder = document.getElementById("rgb").style.color =`rgb(${r},${g},${b})`;
   var folder = document.getElementById("napis").style.color =`rgb(${r},${g},${b})`;
-  /*
-if(ink==0){
-r+=1; 
-g-=1;
-}
-if(r>=256)
-ink=1;
-if(ink==1){
-r-=1;
-g+=1;
-if(r<=0)
-ink=0;
-}*/
 if(ink==0){
   r-=1; 
   g+=1;
@@ -220,4 +204,4 @@ if(ink==0){
 
 
 }
-var myInterval = setInterval(rgb, 5);
+var myInterval = setInterval(rgb, 9);
