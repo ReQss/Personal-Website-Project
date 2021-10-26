@@ -322,7 +322,7 @@ color:white;
     bottom: 0;
     left: 0;
    display:flex;
-   background-image:url("Obrazy/noise.png");
+   background-image:url("Obrazy/noise.png"),url("Obrazy/sl.png");
 	box-shadow:0 0 300px 50px rgba(0,0,30,100) inset;
 }
 
